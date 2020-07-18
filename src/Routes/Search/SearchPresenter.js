@@ -8,7 +8,10 @@ import Message from "../../Components/Message";
 import Poster from "../../Components/Poster";
 
 const Container = styled.div`
-    padding: 0px 20px;
+    padding: 5px 20px;
+    @media (max-width: 600px){
+        padding: 8px 20px;
+    }
 `;
 
 const Form = styled.form`
@@ -65,7 +68,7 @@ const SearchPresenter = ({
                     </Section>
                 )}
                 {tvResults && tvResults.length > 0 && (
-                    <Section title="TV Shows Results">
+                    <Section title="TV Show Results">
                         {tvResults.map(show => (
                             <Poster 
                                 key={show.id} 
@@ -73,7 +76,7 @@ const SearchPresenter = ({
                                 imageUrl={show.poster_path} 
                                 title={show.original_name}
                                 rating={show.vote_average}
-                                year={show.first_air_date.substring(0,4)}
+                                year={show.first_air_date.substring(0, 4)}
                             />
                         ))}
                     </Section>

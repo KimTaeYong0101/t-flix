@@ -29,6 +29,8 @@ const Backdrop = styled.div`
     z-index: 0;
     @media (max-width: 900px){
         position:fixed;
+        background-attachment: scroll;
+        
     }
 `;
 
@@ -39,9 +41,10 @@ const Content = styled.div`
     position:relative;
     z-index: 1;
     height: 100%;
+    display: flex;
     @media (max-width: 900px){
         flex-wrap: wrap;
-        display: flex;
+        
     }
 `;
 
@@ -64,9 +67,9 @@ const Cover = styled.div`
         background-size: contain;
         
     }
-    @media (max-width: 500px){
-        background-size: cover;
-        height: 90%;
+    @media (max-width: 550px){
+        background-size:cover;
+        height: 80%;
     }
     @media (max-width: 500px){
         
