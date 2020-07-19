@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86d90585583f3d6e7d647dbadf985e8a",
+    "revision": "6e0f6d8a14ad01a26bf9e5298a9be040",
     "url": "/t-flix/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/t-flix/static/js/2.969a740d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5d1c28c3c5dcf85434b",
-    "url": "/t-flix/static/js/main.a0145dcd.chunk.js"
+    "revision": "9e7d93a5440184a0cb63",
+    "url": "/t-flix/static/js/main.4c598346.chunk.js"
   },
   {
     "revision": "776b7a36080ad291c710",
