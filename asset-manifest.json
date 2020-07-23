@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/t-flix/static/js/main.8300656e.chunk.js",
-    "main.js.map": "/t-flix/static/js/main.8300656e.chunk.js.map",
+    "main.js": "/t-flix/static/js/main.d64d8aa5.chunk.js",
+    "main.js.map": "/t-flix/static/js/main.d64d8aa5.chunk.js.map",
     "runtime-main.js": "/t-flix/static/js/runtime-main.f92b1da1.js",
     "runtime-main.js.map": "/t-flix/static/js/runtime-main.f92b1da1.js.map",
-    "static/js/2.969a740d.chunk.js": "/t-flix/static/js/2.969a740d.chunk.js",
-    "static/js/2.969a740d.chunk.js.map": "/t-flix/static/js/2.969a740d.chunk.js.map",
+    "static/js/2.ccad5aea.chunk.js": "/t-flix/static/js/2.ccad5aea.chunk.js",
+    "static/js/2.ccad5aea.chunk.js.map": "/t-flix/static/js/2.ccad5aea.chunk.js.map",
     "index.html": "/t-flix/index.html",
-    "precache-manifest.135c892c69e20c8722728aa7b789f14b.js": "/t-flix/precache-manifest.135c892c69e20c8722728aa7b789f14b.js",
+    "precache-manifest.f41b6b8094bb29e50528491ee3448977.js": "/t-flix/precache-manifest.f41b6b8094bb29e50528491ee3448977.js",
     "service-worker.js": "/t-flix/service-worker.js",
-    "static/js/2.969a740d.chunk.js.LICENSE.txt": "/t-flix/static/js/2.969a740d.chunk.js.LICENSE.txt",
+    "static/js/2.ccad5aea.chunk.js.LICENSE.txt": "/t-flix/static/js/2.ccad5aea.chunk.js.LICENSE.txt",
     "static/media/noPosterSmall.png": "/t-flix/static/media/noPosterSmall.87a0eb6a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f92b1da1.js",
-    "static/js/2.969a740d.chunk.js",
-    "static/js/main.8300656e.chunk.js"
+    "static/js/2.ccad5aea.chunk.js",
+    "static/js/main.d64d8aa5.chunk.js"
   ]
 }
