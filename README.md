@@ -11,7 +11,7 @@ Feature
 
     -Because data is received using API, information of movie and TV program is always updated automatically.
 
-description
+Description
 
     -JavaScript 
     -React 
