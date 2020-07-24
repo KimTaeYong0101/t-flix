@@ -1,21 +1,26 @@
 # T-flix
 
-Learning React and ES6 by building a Movie Discovery App.
+    It is a web application that enables you to watch movies and popular TV programs currently being screened using the API of TMDB that collects movies and TV programs and creates a database.
 
-## Screens
 
-- [ ] Home
-- [ ] TV SHows
-- [ ] Search
-- [ ] Detail
+Feature
 
-## API Verbs
+    -Implemented to search for a desired movie or TV program on the Search page
 
-- [x] Now playing (Movie)
-- [x] Upcoming (Movie)
-- [x] Top Rated (TV)
-- [x] Popular (TV, x)
-- [x] Airing Today (TV)
-- [x] TV Show Detail
-- [x] Movie Detail
-- [x] Search (Movie, TV)
+    -Because data is received using API, information of movie and TV program is always updated automatically.
+
+
+https://space-between.github.io/t-flix/
+
+
+description
+
+    -JavaScript 
+    -React 
+    -React Router 
+    -TMDB API
+    -Axios
+
+Contact
+
+    email: xodyd1756@gmail.com

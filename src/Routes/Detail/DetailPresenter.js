@@ -9,7 +9,7 @@ const Container = styled.div`
     width: 100%;
     position: relative;
     padding: 50px;
-    @media (max-width: 1000px){
+    @media (max-width: 1400px){
         padding: 30px 15px 25px 15px;
     }
 `;
@@ -22,29 +22,25 @@ const Backdrop = styled.div`
     height: 100%;
     background-image: url(${props => props.bgImage});
     background-position:center center;
-    
     background-size: cover;
     filter: blur(3px);
     opacity: 0.5;
     z-index: 0;
-    @media (max-width: 900px){
+    @media (max-width: 1400px){
         position:fixed;
         background-attachment: scroll;
-        
     }
 `;
 
 const Content = styled.div`
     display: flex;
-    
     width: 100%;
     position:relative;
     z-index: 1;
     height: 100%;
     display: flex;
-    @media (max-width: 900px){
+    @media (max-width: 1400px){
         flex-wrap: wrap;
-        
     }
 `;
 
@@ -52,24 +48,20 @@ const Cover = styled.div`
     width: 30%;
     background-image: url(${props => props.bgImage});
     background-position:center center;
-    
     background-size: cover;
     height: 100%;
     border-radius: 5px;
     background-repeat: no-repeat;
-    @media (max-width: 1300px){
-        width:100%;
+    @media (max-width: 1400px){
         background-position:center top;
-    }
-    @media (max-width: 900px){
         width:100%;
-        
         background-size: contain;
-        
     }
-    @media (max-width: 550px){
+    @media (max-width: 600px){
         background-size:cover;
-        height: 80%;
+        /*height: 80%;*/
+        /* max-height: 90%;*/
+        max-height: 80%; 
     }
     @media (max-width: 500px){
         
@@ -81,12 +73,13 @@ const Cover = styled.div`
 const Data = styled.span`
     width:70%;
     margin-left: 10px;
-    @media (max-width: 1300px){
+    @media (max-width: 1400px){
+        padding:20px 20px 40px 20px;
+        margin-left: 0px;
         width:100%;
-        
     }
-    @media (max-width: 900px){
-        padding:20px 0 40px 0;
+    @media (max-width: 600px){
+        padding:20px 10px 40px 10px;
     }
 `;
 
@@ -112,8 +105,8 @@ const Overview = styled.p`
     opacity: 0.7;
     line-height: 1.5;
     width: 50%;
-    @media (max-width: 900px){
-        width: 85%;
+    @media (max-width: 1400px){
+        width: 100%;
     }
 `;
 

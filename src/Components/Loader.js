@@ -8,7 +8,8 @@ const Container = styled.div`
     display:flex;
     justify-content: center;
     font-size:28px;
-    margin-top: 20px;
+    /* margin-top: 200px; */
+    transform:translateY(40%); 
     position:fixed;
     @media (max-width: 600px){
         font-size:20px;
