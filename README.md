@@ -6,7 +6,7 @@ https://space-between.github.io/t-flix/
 
 
 
-## Introduce
+## Description
 
     It is a web application that enables you to watch movies and popular TV programs currently being screened using the API of TMDB that collects movies and TV programs and creates a database.
 
