@@ -13,17 +13,19 @@ https://space-between.github.io/t-flix/
 
 ## Feature
 
-    -Implemented to search for a desired movie or TV program on the Search page
+    - Implemented to search for a desired movie or TV program on the Search page
 
-    -Because data is received using API, information of movie and TV program is always updated automatically.
+    - Because data is received using API, information of movie and TV program is always updated automatically.
 
-## Description
 
-    -JavaScript 
-    -React 
-    -React Router 
-    -TMDB API
-    -Axios
+## Tech Stack
+
+    - JavaScript 
+    - React 
+    - React Router 
+    - TMDB API
+    - Axios
+
 
 ## Contact
 
