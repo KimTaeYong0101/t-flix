@@ -25,6 +25,7 @@ https://space-between.github.io/t-flix/
     - React Router 
     - TMDB API
     - Axios
+    - Responsive Web
 
 
 ## Contact
