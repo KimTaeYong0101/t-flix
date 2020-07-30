@@ -57,7 +57,7 @@ const Cover = styled.div`
         width:100%;
         background-size: contain;
     }
-    @media (max-width: 600px){
+    @media (max-width: 490px){
         background-size:cover;
         /*height: 80%;*/
         /* max-height: 90%;*/
@@ -78,7 +78,7 @@ const Data = styled.span`
         margin-left: 0px;
         width:100%;
     }
-    @media (max-width: 600px){
+    @media (max-width: 490px){
         padding:20px 10px 40px 10px;
     }
 `;
